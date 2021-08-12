@@ -1,0 +1,45 @@
+.movie__info{
+    position: relative;
+    top:110px;
+    left: 50px;
+    width: 400px;
+}
+.movie__name,.movie__description{
+    color: white;
+   
+}
+.movie__name{
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.movie__description{
+    margin-top: 10px;
+    
+}
+.btns{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-left: 10px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+#play{
+    color: black;
+}
+#list{
+    background-color: 	#564d4d ;
+}
+#mylist{
+    color: white;
+}

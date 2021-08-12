@@ -1,0 +1,90 @@
+.start_logo{
+    width: 150px;
+    height: 100px;
+    
+}
+.background_logo{
+   width: 100%;
+   height: 100vh;
+   
+}
+.start{
+    width: 100%;
+    height: 100vh;
+}
+.start_nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.signIn{
+    width: 80px;
+    height: 35px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    background-color: red;
+    cursor: pointer;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: grid;
+    place-items: center;
+   
+}
+.content>h1{
+    font-size: 45px;
+}
+.content>h3{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.content>p{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.content>h1>span{
+    margin-left: 45px;
+}
+.form_button{
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    background-color: red;
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+#Email{
+    outline: none;
+    border: 0;
+    width: 520px;
+    height: 50px;
+}
+::placeholder{
+    color: #000;
+}
+.err{
+    position: relative;
+    top: -25px;
+    left: -300px;
+}
