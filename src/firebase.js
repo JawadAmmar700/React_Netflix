@@ -1,17 +1,17 @@
-import firebase from 'firebase';
+import firebase from "firebase"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDQIv9_wHbNVUMwaUx-ZvW3-1zf77lmvpA",
-    authDomain: "netflix-95b2f.firebaseapp.com",
-    projectId: "netflix-95b2f",
-    storageBucket: "netflix-95b2f.appspot.com",
-    messagingSenderId: "989792136826",
-    appId: "1:989792136826:web:6a36b71e1af84ba82f95c3",
-    measurementId: "G-C08YPF6KVY"
-};
+  apiKey: "AIzaSyBxiwOCJE3pzqt_qm9xHeEdAZjqmdZPUOY",
+  authDomain: "react-netflix-f9462.firebaseapp.com",
+  projectId: "react-netflix-f9462",
+  storageBucket: "react-netflix-f9462.appspot.com",
+  messagingSenderId: "912025009502",
+  appId: "1:912025009502:web:12315e51372be5d0f923cf",
+  measurementId: "G-EPG04FGCNH",
+}
 
-const firebaseApp = firebase.initializeApp(firebaseConfig);
-const db = firebaseApp.firestore();
-const auth = firebase.auth();
+const firebaseApp = firebase.initializeApp(firebaseConfig)
+const db = firebaseApp.firestore()
+const auth = firebase.auth()
 
-export { db, auth };
+export { db, auth }
